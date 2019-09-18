@@ -6,7 +6,7 @@ Created on Wed Sep 18 09:19:56 2019
 """
 
 import pandas as pd
-df=pd.read_csv('C:/Ram Folders/Python/Data/RAM py projects/Stock-Sentiment-Analysis-master/Data.csv', encoding = "ISO-8859-1")
+df=pd.read_csv('/Stock-Sentiment-Analysis/Data.csv', encoding = "ISO-8859-1")
 
 train = df[df['Date'] < '20150101']
 test = df[df['Date'] > '20141231']
